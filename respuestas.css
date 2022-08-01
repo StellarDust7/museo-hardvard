@@ -1,0 +1,104 @@
+/**{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}*/
+
+.logo {
+    max-width: 8rem !important;
+}
+.distribuir{
+    object-fit: cover;
+}
+a{
+    cursor: pointer;
+}
+.bot{
+    display: block;
+    background-color:hsl(0, 92%, 67%);
+    text-align: center;
+    color:white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+.gradiante {
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    background-size: cover;
+    background-position: center !important;
+    justify-content: center !important;
+    height: 400px;
+    background-image: linear-gradient(to right bottom, rgba(0,0,0,0.5),
+    rgba(68, 66, 66, 0.233)), url(img/poster2.jpg);
+}
+.margin {
+    max-width: 800px;
+}
+.sinborde {
+
+    padding: 10px;
+    width: 470px;
+    background-color: rgba(204, 204, 204, 0.596);
+    border: none;
+    border-bottom: #fcfaf9 solid 2px;
+    outline: 0px;
+}
+.sinborde::placeholder {
+    font-size: 18px;
+    color: #ffffff;
+}
+.sinborde:focus {
+    background: none;
+    border-bottom: #fcfaf9 solid 2px;
+    outline: none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    font-size: 18px;
+    color: white;
+    
+}
+.search {
+    height: auto;
+    background-color:  rgba(204, 204, 204, 0.527);
+	overflow: visible; /* ie */
+    border: 0;
+    border-bottom: #fcfaf9 solid 2px;
+    filter: grayscale(100%) !important;
+}
+.seleccionar {
+    font-size: 18px;
+    color: white;
+    height: auto;
+    background-color: rgba(204, 204, 204, 0.596) !important;
+    border: 0px;
+    border-bottom: #fcfaf9 solid 2px;
+    outline: 0px;
+}
+.seleccionar:focus {
+    background: none;
+    border-bottom: #fcfaf9 solid 2px;
+    outline: none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    font-size: 18px;
+    color: rgb(88, 88, 88);
+}
+.seleccionar::placeholder {
+    font-size: 18px !important;
+    color: #ffffff !important;
+    
+}
+.contro{
+    display: flex;
+}
+.relleno{
+    background-color: rgb(255, 240, 223);
+    text-align: center ;
+    font-size: 15px;
+}
